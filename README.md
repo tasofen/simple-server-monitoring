@@ -1,5 +1,7 @@
 ## Install
 ```bash
+apt install awk gnuplot
+
 crontab -e
 * * * * * cd /path/to/monitoring && ./newstat.sh > /dev/null 2>&1
 ```
